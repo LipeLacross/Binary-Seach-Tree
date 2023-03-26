@@ -1,3 +1,8 @@
+/*
+ * Felipe Moreira Rios
+ * Marcelo Livramento
+ * Rodrigo Dias
+*/
 public class BST implements EstruturaDeDados{
 
     private Node root;
@@ -143,8 +148,11 @@ public class BST implements EstruturaDeDados{
         }
         return (predecessor != null) ? predecessor.getValue() : -1; // Return -1 if no predecessor is found
     }
-    
-
+/*
+ * Felipe Moreira Rios
+ * Marcelo Livramento
+ * Rodrigo Dias
+*/
     public static void main(String[] args) {
         BST tree = new BST();
         tree.insert(1);
@@ -174,3 +182,8 @@ public class BST implements EstruturaDeDados{
         System.out.println(tree.search(4));
     }
 }
+/*
+ * Felipe Moreira Rios
+ * Marcelo Livramento
+ * Rodrigo Dias
+*/
