@@ -4,6 +4,6 @@ public interface EstruturaDeDados {
     public boolean search(int chave);
     public int minimum();
     public int maximum();
-    public int sucessor(int chave);
-    public int prodessor(int chave);
+    public int successor(int chave);
+    public int predecessor(int chave);
 }

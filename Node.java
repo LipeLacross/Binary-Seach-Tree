@@ -26,4 +26,7 @@ public class Node {
     public void setLeft(Node n) {
         left = n;
     }
+
+    public void setValue(int value2) {
+    }
 }

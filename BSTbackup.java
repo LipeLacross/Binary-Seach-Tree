@@ -96,12 +96,12 @@ public class BSTbackup implements EstruturaDeDados{
     }
 
     @Override
-    public int sucessor(int chave) {
+    public int successor(int chave) {
         return 0;
     }
 
     @Override
-    public int prodessor(int chave) {
+    public int predecessor(int chave) {
         return 0;
     }
 
