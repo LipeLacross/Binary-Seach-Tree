@@ -1,5 +1,3 @@
-package tree;
-
 public class Node {
     private int value;
     private Node left;

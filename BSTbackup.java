@@ -1,8 +1,4 @@
-package tree;
-
-import lista.EstruturaDeDados;
-
-public class BST implements EstruturaDeDados{
+public class BSTbackup implements EstruturaDeDados{
 
     private Node root;
 
@@ -110,13 +106,13 @@ public class BST implements EstruturaDeDados{
     }
 
     public static void main(String[] args) {
-        BST tree = new BST();
+        BSTbackup tree = new BSTbackup();
         System.out.println(tree.search(7));
-        // tree.insert(4);
-        // tree.insert(2);
-        // tree.insert(5);
-        // tree.insert(6);
-        // System.out.println(tree.search(5));
-        // System.out.println(tree.search(7));
+        tree.insert(4);
+        tree.insert(2);
+        tree.insert(5);
+        tree.insert(6);
+        System.out.println(tree.search(5));
+        System.out.println(tree.search(7));
     }
 }
