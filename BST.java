@@ -166,11 +166,11 @@ public class BST implements EstruturaDeDados{
         System.out.println(tree.predecessor(7));
         System.out.println(tree.predecessor(8));
         System.out.println(tree.predecessor(9));
-        tree.delete(1);
         tree.delete(2);
         tree.delete(3);
-        System.out.println(tree.search(1));
+        tree.delete(4);
         System.out.println(tree.search(2));
         System.out.println(tree.search(3));
+        System.out.println(tree.search(4));
     }
 }
